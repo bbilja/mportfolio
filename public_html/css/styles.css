@@ -47,10 +47,21 @@ a:hover, a:focus {
 }
 h1 {
     text-align: left;
+    /*transform: translate(0%, -50%); */
+    position: absolute;
+    bottom: 35%;
+    font-size: 75px;
+}
+header {
+    position: fixed;
+    background: #fff;
+    left:0;
+    right:0;
+    top:0;
 }
 .container > header {
-	margin: 0 auto 3em;
-	padding: 5em 3em 4em;
+	margin: 0 auto;
+	padding: 10px 3em;
 	text-align: center;
 }
 
@@ -98,7 +109,7 @@ h1 {
 
 .main {
 	
-	margin: 0 3%;
+	margin: 0 10%;
 }
 
 .column {
@@ -272,7 +283,9 @@ p {
 	animation: ani-mouse 2.5s linear infinite;
 }
 .projdiv {
-    padding: 50px 0;
+    padding: 0;
+    height:100vh;
+    position: relative;
 }
 .projdiv img {
     width:100%;
