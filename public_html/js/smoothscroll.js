@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 window.onload = function() {
+if(jQuery(window).width() > 760){
 var body = document.body;
 var main = document.querySelector("main");
 var letter = document.querySelector(".bckletters");
@@ -69,5 +71,5 @@ function render() {
 function lerp(a, b, n) {
   return (1 - n) * a + n * b;
 }
-
+}
 }

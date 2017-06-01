@@ -1,14 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
 
 *,
 *:after,
@@ -36,7 +26,7 @@ a:hover, a:focus {
 	color: #ed4e6e;
 	outline: none;
 }
-
+img {max-width:100%;}
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
@@ -92,25 +82,6 @@ header {
 	font-weight: 400;
 }
 
-.codrops-icon:before {
-	margin: 0 4px;
-	text-transform: none;
-	font-weight: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-family: 'codropsicons';
-	line-height: 1;
-	speak: none;
-	-webkit-font-smoothing: antialiased;
-}
-
-.codrops-icon-drop:before {
-	content: "\e001";
-}
-
-.codrops-icon-prev:before {
-	content: "\e004";
-}
 
 main {
 	display: block;
@@ -126,66 +97,7 @@ section {
 .window:nth-child(1) img{
   //transform: translate(20%, 23%);
 }
-.column {
-	float: left;
-	width: 50%;
-	padding: 0 2em;
-	min-height: 300px;
-	position: relative;
-	text-align: right;
-}
 
-.column:nth-child(2) {
-	text-align: left;
-}
-
-.column p {
-	font-weight: 300;
-	font-size: 2em;
-	padding: 0 0 0.5em;
-	margin: 0;
-	line-height: 1.5;
-}
-
-p.small {
-	font-weight: 700;
-	font-size: 1em;
-}
-
-button {
-	border: none;
-	padding: 0.6em 1.2em;
-	background: #ed4e6e;
-	color: #fff;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
-	font-size: 1em;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	cursor: pointer;
-	display: inline-block;
-	margin: 3px 2px;
-	border-radius: 2px;
-}
-
-button:hover {
-	background: #2c3e52;
-}
-
-.info {
-	text-align: center;
-	font-size: 1.5em;
-	margin-top: 3em;
-	clear: both;
-	padding: 3em 0;
-}
-
-.info a {
-	font-weight: 700;
-	font-size: 0.9em;
-}
-p {
-  
-}
 @-webkit-keyframes ani-mouse {
 	0% {
 	opacity: 1;
@@ -316,6 +228,19 @@ p {
 .bckletters {
     transform: translate(0px, 30%);
 }
+
+/*** PDP ***/
+.onecol {
+	
+}
+
+/*** White PDP Theme ***/
+
+
+
+
+
+.onecol
 @media screen and (max-width: 46.0625em) {
 	.column {
 		width: 100%;
