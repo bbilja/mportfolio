@@ -8,19 +8,13 @@
 		<meta name="description" content="Milos Randelovic Portfolio" />
 		<meta name="keywords" content="creative, modern, css, svg, " />
 		<meta name="author" content="biljana.josifov5@gmail.com" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no">
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
-		<script src="js/jquery-3.2.1.js"></script>
-		<script type="text/javascript" src="js/head.load.js"></script>
-		
-		<script src="js/modernizr.custom.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="js/jquery.windows.js"></script>
-        
-        <script src="js/w3.js"></script>
+		<script src="js/jquery-3.2.1.js"></script>		
             
 	</head>
         
@@ -45,10 +39,14 @@
 		<div class="la-anim-13"></div>
 		<!-- main container -->		
 			<header>
-                     <a class="mhome" href="javascript:void(0);"><span>M</span></a>
-    				<a class="bck" href="about.html"><span>X</span></a>
+                     <a class="mhome" href="javascript:void(0);"><img src="images/m.png" alt="Milos" title="Milos" /></a>
+    				<span class="hispan">Hi I'm Milos Randjelovic</span>
 
 			</header>
+			<aside>
+				<a class="vertical" href="javascript:void(0);">Works</a>
+  				<a class="vertical bck" href="about.html">About + Contact</a>
+			</aside>
                       <main>
                         <section class="window">
                             <div class="projdiv">
@@ -56,7 +54,7 @@
 				<h1 data-content="Art Director & Product Designer currently shaping brands and experiences in Sweden">Art Director & Product Designer currently shaping brands and experiences in Sweden</h1>
                                 <p>See some of my latest project below.</p>                                
                               </div>
-                                <div class="bckletters"><img src="images/W.png" /></div>
+                                <div class="bckletters"><div class="W">W</div></div>
                             </div>
                         </section>
                           <section class="window">
@@ -85,12 +83,8 @@
 			<!-- /main -->
 		<!-- /container -->
 		<script src="js/classie.js"></script>	
-                <script>
-			window.onscroll = function(){
-              document.body.style.webkitPerspectiveOrigin =
-              window.scrollX + "px " + 
-              window.scrollY + "px";
-            }
+        <script>
+			
 			var inProgress = false;
 
                         
@@ -100,12 +94,7 @@
                     jQuery('.scroll-btn').hide();
                 });
                 //console.log(jQuery(window).width());
-                if(jQuery(window).width() > 760){
-                	head.load("js/smoothscroll.js", function() {
-                	    // Call a function when done
-                	    console.log("Done loading jQuery");
-                	});
-            	}
+                
             
             });
             function loadeffects(x){
@@ -119,21 +108,7 @@
 				}, 6000 );
             }
 		</script>
-                <script>
-                    $(document).ready(function(){
-                    if($(window).width() > 760){
-                    var $windows = $('.window');
-
-                    $windows.windows({
-                        snapping: true,
-                        snapSpeed: 500,
-                        snapInterval: 1100,
-                        onScroll: function(s){},
-                        onSnapComplete: function($el){},
-                        onWindowEnter: function($el){}
-                    });
-					}
-                })(jQuery);
+               
                 
             </script>
 	</body>

@@ -1,5 +1,105 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskbold_italic';
+    src: url('fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskitalic';
+    src: url('fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesklight_italic';
+    src: url('fonts/hkgrotesk-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: url('fonts/hkgrotesk-medium-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskmedium_italic';
+    src: url('fonts/hkgrotesk-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesksemibold';
+    src: url('fonts/hkgrotesk-semibold-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesksemibold_italic';
+    src: url('fonts/hkgrotesk-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Novecentosanswide-Normal';
+    src: url('fonts/Novecentosanswide-Normal-webfont.woff2') format('woff2'),
+         url('fonts/Novecentosanswide-Normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 *,
 *:after,
 *::before {
@@ -11,9 +111,10 @@ body {
 	background: #fff;
 	color: #000;
 	font-weight: 400;
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: hk_groteskregular, 'Lato', Calibri, Arial, sans-serif;
         margin: 0;
         padding: 0;
+    font-size:20px;
 }
 
 a {
@@ -82,7 +183,7 @@ header {
 	font-weight: 400;
 }
 
-
+.hispan {padding-left:45px;}
 main {
 	display: block;
         width: 80%;
@@ -228,7 +329,42 @@ section {
 .bckletters {
     transform: translate(0px, 30%);
 }
-
+.mhome {padding:100px 0 0 100px; display:inline-block;}
+aside {
+	position:fixed;
+	right:100px;
+	top:50%;
+	width:25px;
+}
+aside a.vertical {
+	display:inline-block; 
+	margin: 20px 0;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+.vertical{
+    writing-mode:tb-rl;
+    /*-webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform: rotate(90deg);*/
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    float:left;
+    /*width:20px;
+    height:20px;*/
+}
+.W {
+  /*width: 518px;
+  height: 542px;*/
+  font-family: Novecentosanswide-Normal;
+  font-size: 750px;
+  font-weight: 900;
+  text-align: center;
+  color: #181818;
+}
 /*** PDP ***/
 .onecol {
 	

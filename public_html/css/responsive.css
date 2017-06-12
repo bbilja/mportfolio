@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1440px) {
-    
+    .mhome {padding:50px 0 0 50px;}
 }
 @media only screen and (max-width: 760px) {
 	header {left:40px;}
@@ -8,5 +8,13 @@
         margin:0 auto;
     }
     section, .projdiv {height:auto}
-    .primg {position:relative}
+    .primg, .landing {position:relative}
+    .mhome {padding:0px;}
+    .bckletters {
+	    transform: translate(30%, -37%);
+	}
+	.W {
+	  width: 518px;
+	  height: 542px;
+	}
 }
