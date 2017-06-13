@@ -128,7 +128,7 @@ a:hover, a:focus {
 	outline: none;
 }
 img {max-width:100%;}
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
 .clearfix:before,
 .clearfix:after {
 	display: table;
@@ -151,7 +151,7 @@ header {
     position: fixed;
     background: #fff;
     left:0;
-    right:0;
+    /*right:0;*/
     top:0;
     z-index: 10;
 }
@@ -182,8 +182,8 @@ header {
 	text-decoration: none;
 	font-weight: 400;
 }
-
-.hispan {padding-left:45px;}
+p {margin: 0 0 10px;}
+.hispan {padding-left:0px; padding-top: 97px;}
 main {
 	display: block;
         width: 80%;
