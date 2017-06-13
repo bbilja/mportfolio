@@ -109,12 +109,12 @@
 
 body {
 	background: #fff;
-	color: #000;
+	color: #151515;
 	font-weight: 400;
 	font-family: hk_groteskregular, 'Lato', Calibri, Arial, sans-serif;
         margin: 0;
         padding: 0;
-    font-size:20px;
+    font-size:30px;
 }
 
 a {
@@ -145,7 +145,8 @@ img {max-width:100%;}
 }
 h1 {
     text-align: left;    
-    font-size: 75px;
+    font-size: 105px;
+    font-weight:600;
 }
 header {
     position: fixed;
@@ -183,12 +184,12 @@ header {
 	font-weight: 400;
 }
 p {margin: 0 0 10px;}
-.hispan {padding-left:0px; padding-top: 97px;}
+.hispan {padding-left:0px; padding-top: 97px; margin-left:0px}
 main {
 	display: block;
-        width: 80%;
+    width: 80%//calc(100% - 730px);
 	margin: 0 10%;
-        perspective: 1px;
+    perspective: 1px;
 }
 section {
   width: 100%;
@@ -327,9 +328,21 @@ section {
     transform: translate(0%, -50%);
 }
 .bckletters {
-    transform: translate(0px, 30%);
+    transform: translate(15%, 103%);
 }
-.mhome {padding:100px 0 0 100px; display:inline-block;}
+.mhome {
+	padding:100px 0 0 100px; 
+	display:inline-block;
+	}
+.mhome img {
+	width:51px;
+}
+.holder {
+  width: 75%;
+  height: 500px;
+  background-image: linear-gradient(241deg, #ffe900, #fff000);
+  box-shadow: 40px 40px 60px 0 rgba(0, 0, 0, 0.05);
+}
 aside {
 	position:fixed;
 	right:100px;
@@ -364,6 +377,9 @@ aside a.vertical {
   font-weight: 900;
   text-align: center;
   color: #181818;
+}
+.W img {
+	max-width:1240px;
 }
 /*** PDP ***/
 .onecol {
