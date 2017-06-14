@@ -148,7 +148,7 @@ img {max-width:100%;}
 }
 h1 {
     text-align: left;    
-    font-size: 100px;
+    font-size: calc(75px + 0.75vw);
     font-weight:600;
     padding: 0;
     margin: 0 auto 50px;
@@ -339,7 +339,7 @@ section {
     position: absolute;
     right: 120px;
   width: 79%;
-  height: 500px;
+  height: 70%;
   background-image: linear-gradient(241deg, #ffe900, #fff000);
   box-shadow: 40px 40px 60px 0 rgba(0, 0, 0, 0.05);
 }
@@ -347,7 +347,7 @@ section {
     //transform: translate(15%, 103%);
     position: absolute;
     right:0;
-    top:-27vh;
+    top:-21vh;
     max-width: 68%;
 }
 .mhome {

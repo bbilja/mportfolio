@@ -23,8 +23,12 @@
     .holder {
 	  width: 900px;
 	  height: 500px;
+	  top:-70px;
     }
-    .bckletters {top:-165px;}
+    .bckletters {
+    	top:-165px;
+    	width:714px;
+    }
 }
 @media only screen and (max-width: 760px) {
 	header {left:40px;}
