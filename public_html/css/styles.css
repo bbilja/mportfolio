@@ -146,12 +146,19 @@ img {max-width:100%;}
     width:100%;
     z-index: 1;
 }
+section:not(:first-of-type) .landing {
+    left:32%;
+}
+section:not(:first-of-type) .landing p {
+    font-size:20px;
+}
 h1 {
     text-align: left;    
     font-size: calc(75px + 0.75vw);
     font-weight:600;
     padding: 0;
     margin: 0 auto 50px;
+    /*font-family: hk_groteskbold;*/
 }
 header {
     position: fixed;
@@ -192,7 +199,7 @@ p {margin: 0 0 10px;}
 .hispan {padding-left:0px; padding-top: 97px; margin-left:0px}
 main {
 	display: block;
-    width: 80%//calc(100% - 730px);
+    width: 80%;//calc(100% - 730px);
 	margin: 0 10%;
     perspective: 1px;
 }
@@ -265,7 +272,7 @@ section {
 	left: 0;
 	right: 0;
 	text-align: center;
-        bottom:10px;
+        bottom:calc(2.3vh + 10px);
 }
 .scroll-btn > * {
 	display: inline-block;
@@ -335,13 +342,16 @@ section {
 }
 .holder {
   max-width: 80%;
-    top: -60px;
+    top: -8.3vh;
     position: absolute;
     right: 120px;
-  width: 79%;
-  height: 70%;
+  width: 62vw;
+  height: 35vw;
   background-image: linear-gradient(241deg, #ffe900, #fff000);
   box-shadow: 40px 40px 60px 0 rgba(0, 0, 0, 0.05);
+}
+.proj2 .holder, .proj3 .holder {
+    background-image: linear-gradient(42deg, #eeeeee, #e0e0e0);
 }
 .bckletters {
     //transform: translate(15%, 103%);
@@ -385,7 +395,7 @@ aside a.vertical {
     /*width:20px;
     height:20px;*/
 }
-.W {
+.letter {
   /*width: 518px;
   height: 542px;*/
   font-family: Novecentosanswide-Normal;
