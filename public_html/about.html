@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>About Milos Randelovic</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="creative, modern, css, svg, " />
+		<meta name="author" content="biljana.josifov5@gmail.com" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<script src="js/jquery-3.2.1.js"></script>		
+            
+	</head>
+        
+	<body class="about projs projblack">
+		<div class="la-anim-1"></div>
+		
+		<!-- main container -->		
+			<header>
+                     <a class="mhome" href="javascript:void(0);"><img src="images/m-white@2x.png" alt="Milos" title="Milos" /></a>
+			</header>
+			<aside>
+				<a class="vertical" href="javascript:void(0);">Works</a>
+  				<a class="vertical" href="about.html">About + Contact</a>
+			</aside>
+                      <main>                        
+                    	<div class="title">                                
+							<h1 data-content="Over the past 9 years I’ve been collaborating with amazing people around the world to create experiences for some of the most ambitious brands and startups out there.">Over the past 9 years I’ve been collaborating with amazing people around the world to create experiences for some of the most ambitious brands and startups out there.</h1>
+                            <p><span class="min"></span><span class="titinfo">My work includes designing for devices large and small and everything in between. Currently at Pingdom, where I work on everything from product strategy and management to designing compelling user experiences.</span></p>
+                            <div class="clear"></div>                            
+                        </div>                                
+                        <div class="ablft">
+                        	<div class="greybck"></div>
+                        </div>    
+                        <div class="abrgh">
+                        	<label>PASSION</label>
+							<p>I’m not just looking to create a beautiful face for the product — I want to help to define its entire direction. My passion lies in creating great products and services.</p>
+							<label>AWARDS</label>
+							<p>My work and hands-on work has been featured on TheFWA, Awwwards, CSS Design Awards and other relevant website authoraties.</p>
+							<label>CONTACT</label>
+							<p>For further information feel free to contact me via <a href="" target="_blank">Linkedin</a> or by some of the links below.</p>
+							<div class="whiteinfo">
+								<p>N — Miloš Ranđelović</p>
+								<p>E — hi@randelovicmilos.com</p>
+								<p>P — +46 76 406 0982</p>
+							</div>
+                        </div> 
+                      </main>                                
+
+				<span class="scroll-btn">
+                                      <a href="#">
+                                          <span class="mouse">
+                                                  <span>
+                                                  </span>
+                                          </span>
+                                      </a>
+                                 </span>
+			<!-- /main -->
+		<!-- /container -->
+		
+        <script>
+			
+			var inProgress = false;
+
+                        
+            jQuery(document).ready(function(){                            
+                loadeffects('la-anim-1');
+                jQuery(window).scroll(function() {
+                    jQuery('.scroll-btn').hide();
+                });
+                //console.log(jQuery(window).width());
+                
+            
+            });
+            function loadeffects(x){
+                var effect = jQuery('.'+x);
+                if( inProgress ) return false;
+				inProgress = true;
+                effect.addClass('la-animate');
+				setTimeout( function() {
+					effect.removeClass('la-animate');
+					inProgress = false;
+				}, 6000 );
+            }
+		</script>
+               
+                
+            </script>
+	</body>
+</html>
