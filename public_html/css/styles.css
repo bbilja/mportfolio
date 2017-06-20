@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'hk_groteskbold';
-    src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-bold.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -11,8 +11,8 @@
 
 @font-face {
     font-family: 'hk_groteskbold_italic';
-    src: url('fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-bolditalic.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bolditalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'hk_groteskitalic';
-    src: url('fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-italic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-italic.woff2') format('woff2'),
+         url('fonts/hkgrotesk-italic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'hk_grotesklight';
-    src: url('fonts/hkgrotesk-light-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-light-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-light.woff2') format('woff2'),
+         url('fonts/hkgrotesk-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'hk_grotesklight_italic';
-    src: url('fonts/hkgrotesk-lightitalic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-lightitalic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-lightitalic.woff2') format('woff2'),
+         url('fonts/hkgrotesk-lightitalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -47,8 +47,8 @@
 
 @font-face {
     font-family: 'hk_groteskmedium';
-    src: url('fonts/hkgrotesk-medium-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-medium-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-medium.woff2') format('woff2'),
+         url('fonts/hkgrotesk-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -56,8 +56,8 @@
 
 @font-face {
     font-family: 'hk_groteskmedium_italic';
-    src: url('fonts/hkgrotesk-mediumitalic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-mediumitalic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-mediumitalic.woff2') format('woff2'),
+         url('fonts/hkgrotesk-mediumitalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -65,8 +65,8 @@
 
 @font-face {
     font-family: 'hk_groteskregular';
-    src: url('fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    src: url(fonts/hkgrotesk-regular.woff2) format('woff2'),
+         url(fonts/hkgrotesk-regular.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -74,8 +74,8 @@
 
 @font-face {
     font-family: 'hk_grotesksemibold';
-    src: url('fonts/hkgrotesk-semibold-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-semibold-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-semibold.woff2') format('woff2'),
+         url('fonts/hkgrotesk-semibold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,21 +83,21 @@
 
 @font-face {
     font-family: 'hk_grotesksemibold_italic';
-    src: url('fonts/hkgrotesk-semibolditalic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-semibolditalic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-semibolditalic.woff2') format('woff2'),
+         url('fonts/hkgrotesk-semibolditalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Novecentosanswide-Normal';
     src: url('fonts/Novecentosanswide-Normal-webfont.woff2') format('woff2'),
          url('fonts/Novecentosanswide-Normal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
 
 
 *,
@@ -111,7 +111,7 @@ body {
 	background: #fff;
 	color: #151515;
 	font-weight: 400;
-	font-family: hk_groteskregular, 'Lato', Calibri, Arial, sans-serif;
+	font-family: 'hk_groteskregular', 'Lato', Calibri, Arial, sans-serif;
         margin: 0;
         padding: 0;
     font-size:20px;
@@ -158,7 +158,8 @@ h1 {
     font-weight:600;
     padding: 0;
     margin: 0 auto 50px;
-    /*font-family: hk_groteskbold;*/
+    font-family: hk_grotesksemibold;
+    letter-spacing: -0.8px;
 }
 header {
     position: fixed;
@@ -293,9 +294,10 @@ aside a.vertical:focus,
 .letter {
   /*width: 518px;
   height: 542px;*/
-  font-family: Novecentosanswide-Normal;
-  font-size: 750px;
-  font-weight: 900;
+  font-family: 'Novecento Sans Wide';
+  font-size: 63vw;//750px;
+  line-height:1;
+  font-weight: 700;
   text-align: center;
   color: #181818;
 }
