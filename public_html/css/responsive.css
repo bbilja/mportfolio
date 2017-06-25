@@ -1,6 +1,7 @@
 
 @media only screen and (min-width: 2550px) {
 	body {font-size:30px;}
+	.about p {font-size:32px;}
 	main {
 		width: calc(100% - 730px);
 		margin: 0 365px;
@@ -19,7 +20,7 @@
 	max-width:1240px;
     }
      .scroll-btn {bottom:90px;}
-     .bckletters {top: -20vh;}
+     .bckletters {top: -40vh;}
      .mhome {
 		padding:100px 0 0 100px; 
 	}
@@ -30,6 +31,9 @@
 	.projpg h2 {
 	    font-size: 44px;
 	}
+	.ablft {width:calc(48vw - 365px);}
+	.abrgh {width:calc(44vw - 365px);}
+	.about h1 {font-size: 94px;}
 }
 @media only screen and (max-width: 1440px) {
     .mhome {padding:50px 0 0 50px;}
@@ -37,15 +41,14 @@
     .projpg h1 {
 		font-size: 120px;
 	}
-	.about h1 {font-size: 64px;}
+	.about h1 {font-size: 64px; max-width:100%;}
     .holder {
 	  width: 900px;
 	  height: 500px;
 	  top:-60px;
     }
     .bckletters {
-    	top:-165px;
-    	width:714px;
+    	top:calc(-3vh - 300px);
     }
     .scroll-btn {
         bottom:10px;
@@ -63,6 +66,8 @@
 	  height: 720px;
 	  max-width:100%;
 	}
+	.about p {font-size:22px;}
+}
 @media only screen and (max-width: 1366px) {
 	body, .centertxt > * {font-size:16px}
 	h1 {font-size: calc(75px - 0.75vw);}
@@ -75,6 +80,10 @@
 	}
 	.projpg h2 {
 	    font-size: 20px;
+	}
+	.about h1 {
+    font-size: calc(65px - 0.7vw);
+    max-width: 90%;
 	}
 }
 @media only screen and (max-width: 760px) {
