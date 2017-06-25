@@ -542,6 +542,7 @@ label {
   letter-spacing: 0.9px;
   color: #cccccc;
 }
+
 .min {
 	width:60px;
 	height:2px;
@@ -602,6 +603,8 @@ body.projblack {
 .projblack.projpg p.quotep {
   color: #ffffff;
 }
+.projblack .quote .min {background-color: #cccccc;}
+.projblack aside a.vertical {color: #ffffff;}
 /*** About ***/
 .title {
 	margin:15vh 0 12vh;
@@ -617,7 +620,7 @@ body.projblack {
 	vertical-align:middle;
 }
 .titinfo {
-	width:850px;
+	width:50vw;
 	margin-left:30px;
 }
 .ablft {width:38vw; margin-right:7vw; float:left;position:relative;}
