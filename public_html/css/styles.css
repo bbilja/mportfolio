@@ -500,6 +500,7 @@ label {
 }
 .projpg p {	
   	line-height: 1.45;
+  	letter-spacing: 0.2px;
   	color: #353535;
 }
 .prinfo {
@@ -507,7 +508,8 @@ label {
 	width:33%;
 }
 .projpg h2 {
-	font-size:32px;
+	font-size:34px;
+	font-family: 'hk_groteskmedium';
 }
 .centertxt {
 	text-align:center;
@@ -520,6 +522,26 @@ label {
 	text-align:left;
 	font-size: 22px;
 }
+.quote {
+  width: 60vw;  
+  margin:15vh auto;
+  text-align: center;
+}
+.projpg p.quotep {
+  font-size: 34px;
+  font-family: 'hk_grotesksemibold';
+  line-height: 1.29;
+  letter-spacing: 0.2px;  
+  margin-bottom:40px;
+}
+
+.quote .titinfo {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  color: #cccccc;
+}
 .min {
 	width:60px;
 	height:2px;
@@ -531,7 +553,14 @@ label {
 	display:inline-block; 
     vertical-align: middle;
 } 
+.pagination span:not(min),
+label, 
+.label {font-size:13px; letter-spacing:2px;font-family: 'hk_groteskbold';}
 .pagination a {width:50%; float:left; vertical-align: middle; position:relative;}
+.projpg .pagination h2 {
+	margin:10px 0;
+	font-family: 'hk_grotesksemibold';
+}
 .prev div {
 	margin-left:5vw;
 	width: calc(100% - 160px - 5vw);
@@ -570,7 +599,9 @@ body.projblack {
   {
 	background-color: #fff;
 }
-
+.projblack.projpg p.quotep {
+  color: #ffffff;
+}
 /*** About ***/
 .title {
 	margin:15vh 0 12vh;
