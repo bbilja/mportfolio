@@ -150,7 +150,7 @@ section:not(:first-of-type) .landing {
     left:32%;
 }
 section:not(:first-of-type) .landing p {
-    font-size:13px;
+    font-size:0.9vw;
     font-family: 'hk_groteskbold';
     letter-spacing: 2px;
 }
@@ -197,7 +197,7 @@ header {
 	text-decoration: none;
 	font-weight: 400;
 }
-p {margin: 0 0 10px;}
+p {margin: 0 0 10px; letter-spacing:0.5px;}
 .hispan {padding-left:0px; padding-top: calc(3.5vw + 2px); margin-left:0px}
 main {
 	display: block;
@@ -247,10 +247,9 @@ section {
     background-image: linear-gradient(42deg, #eeeeee, #e0e0e0);
 }
 .bckletters {
-    //transform: translate(15%, 103%);
+	top: -44vh; 
+	right:1%;
     position: absolute;
-    right:0;
-    top:-50vh;
     max-width: 68%;
 }
 .proj2 .bckletters,
@@ -381,7 +380,7 @@ aside a.vertical:focus,
 	left: 0;
 	right: 0;
 	text-align: center;
-        bottom:calc(2.3vh + 10px);
+        bottom:calc(2.3vh - 5px);
 }
 .scroll-btn > * {
 	display: inline-block;
