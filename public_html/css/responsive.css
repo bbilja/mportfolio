@@ -107,6 +107,13 @@
     font-size: calc(65px - 0.7vw);
     max-width: 90%;
 	}
+        .holder {
+            max-height: 35vw;
+        }
+        section:not(:first-of-type) .landing {
+            left: 0%;
+            transform: translate(-7%, -50%);
+        }
 }
 @media only screen and (max-width: 1024px) {
 	.bckletters {
@@ -115,16 +122,33 @@
     }
 }
 @media only screen and (max-width: 770px) {
-	header {left:40px;}
-    .main {
-        padding: 40px 40px;
-        margin:0 auto;
+    .mhome {
+        padding: 40px 0 0 40px;
     }
-    section, .projdiv {height:auto}
+    .hispan {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+    .landing p {font-size:34px;}
+    main {
+        padding: 47px 40px;
+        margin:0 auto;
+        width:100%;
+    }
+    section:first-of-type, .projdiv {height: auto;}
+    section:not(:first-of-type) {height:100vw; margin-top: 36vw;}
     .primg, .landing {position:relative}
-    .mhome {padding:0px;}
-    .bckletters {
-	    //transform: translate(30%, -37%);
+    .landing {top:0; left: 0; transform: none;}
+    section:not(:first-of-type) .landing {
+        left: 30px;
+        position: absolute;
+        bottom: calc(68px - 0.75vw);
+        top: initial;
+        transform: translate(0%, 100%);
+    }
+    .bckletters, .proj2 .bckletters, .proj5 .bckletters {
+	    top: -36vw;
+            right: -26vw;
 	}
 	.W {
 	  width: 518px;
@@ -136,4 +160,10 @@
 	    margin-right: -1%;
 	}
 	.letter {font-size: 90vw;}
+        .holder {
+            top:0;
+            right:0;
+            max-width: 100%;
+            max-height: 70vw;
+        }
 }
