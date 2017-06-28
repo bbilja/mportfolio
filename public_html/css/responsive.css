@@ -1,6 +1,8 @@
 
 @media only screen and (min-width: 2550px) {
 	body {font-size:30px;}
+        p {letter-spacing: 0.8px;}
+        section:not(:first-of-type) .landing p {letter-spacing: 3px;}
 	.about p {font-size:32px;}
 	main {
 		width: calc(100% - 730px);
@@ -8,6 +10,7 @@
 	}
 	.hispan {padding-left:0px; padding-top: 100px; margin-left:-150px}
 	h1 {font-size: 130px;}
+        aside a.vertical {letter-spacing:0.8px;}
 	.projpg h1 {
 	    font-size: 180px;
 	}
@@ -20,9 +23,10 @@
     .W img {
 	max-width:1240px;
     }
+    
      .scroll-btn {bottom:60px;}
-     .bckletters {top: -38vh; right:1%;}
-     .letter {font-size: 48vw;}
+     .bckletters {top: -600px; right:17px;}
+     .letter {font-size: 1200px;}
      .mhome {
 		padding:100px 0 0 100px; 
 	}
@@ -42,23 +46,24 @@
     .mhome {padding:50px 0 0 50px;}
     h1 {font-size: 75px; margin-bottom: 20px;}
     section:not(:first-of-type) .landing {
-	    left: 42%;
-	}
-	section:not(:first-of-type) .landing p {font-size:13px;}
+	    left: -51px;
+    }
+    section:not(:first-of-type) .landing p {font-size:13px;}
     .projpg h1 {
-		font-size: 120px;
-	}
-	.about h1 {font-size: 64px; max-width:100%;}
+	font-size: 120px;
+    }
+    .about h1 {font-size: 64px; max-width:100%;}
     .holder {
 	  width: 900px;
 	  height: 500px;
 	  top:-60px;
     }
     .bckletters {
-    	top:calc(-3vh - 300px);
+    	
     }
     .scroll-btn {
-        bottom:10px;
+        bottom:15px;
+        height: 90px;
     }
     .scroll-btn > * {
     width: 90px;
@@ -71,8 +76,9 @@
   margin-top:25px;
 }
 .scroll-btn .mouse > * {
-	width: 3px;
-  height: 7px;
+    width: 3px;
+    height: 7px;
+    margin-bottom: -1px;
 }
     .mhome img {
 	    width: 36px;
@@ -116,10 +122,10 @@
         }
 }
 @media only screen and (max-width: 1024px) {
-	.bckletters {
-    top: -34vh;
-    right: 3%;
+    .bckletters {
+        right: 3%;
     }
+    h1 {font-size: 5.5vw;}
 }
 @media only screen and (max-width: 770px) {
     .mhome {
