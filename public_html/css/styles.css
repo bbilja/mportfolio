@@ -635,7 +635,10 @@ body.projblack {
 }
 .about span {
 	display: inline-block;
-	vertical-align:middle;
+	vertical-align:top;
+}
+.about .min {
+	margin-top:13px;
 }
 .titinfo {
 	width:50vw;
@@ -667,9 +670,11 @@ body.projblack {
 	top:14vw;
 }
 .about h1 {
-	font-size:calc(65px + 0.7vw);
+	font-size:calc(64px + 0.7vw);
 	max-width:90%;
 	margin-left:0;
+	margin-bottom:50px;
+	line-height:1.2;
 }
 @media screen and (max-width: 46.0625em) {
 	.column {

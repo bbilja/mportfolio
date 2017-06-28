@@ -1,19 +1,29 @@
 
 @media only screen and (min-width: 2550px) {
 	body {font-size:30px;}
-        p {letter-spacing: 0.8px;}
-        section:not(:first-of-type) .landing p {letter-spacing: 3px;}
+    p {letter-spacing: 0.8px;}
+    section:not(:first-of-type) .landing p {letter-spacing: 3px;}
 	.about p {font-size:32px;}
 	main {
 		width: calc(100% - 730px);
 		margin: 0 365px;
 	}
 	.hispan {padding-left:0px; padding-top: 100px; margin-left:-150px}
-	h1 {font-size: 130px;}
+	h1 {font-size: 130px; margin-bottom:70px;}
         aside a.vertical {letter-spacing:0.8px;}
 	.projpg h1 {
-	    font-size: 180px;
+	    font-size: 200px;
 	}
+	.about h1{
+		margin-bottom:100px;
+	}
+	.pagination span:not(min), label, .label {
+	    font-size: 20px;
+	    letter-spacing: 3.1px;
+	}
+	.projpg p {line-height: 46px;}
+	.projpg p.quotep {font-size: 56px;}
+	.quote .titinfo {font-size: 26px;}
 	.holder {
 	  width: 1440px;
 	  height: 800px;
@@ -40,6 +50,7 @@
 	.ablft {width:calc(48vw - 365px);}
 	.abrgh {width:calc(44vw - 365px);}
 	.about h1 {font-size: 94px;}
+	.about .min {margin-top:20px;}
 	
 }
 @media only screen and (max-width: 1440px) {
@@ -52,7 +63,11 @@
     .projpg h1 {
 	font-size: 120px;
     }
-    .about h1 {font-size: 64px; max-width:100%;}
+    .about h1 {
+    	font-size: 64px; 
+    	max-width:100%; 
+    	line-height:70px;
+    }
     .holder {
 	  width: 900px;
 	  height: 500px;
