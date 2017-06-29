@@ -125,16 +125,20 @@
 	    font-size: 20px;
 	}
 	.about h1 {
-    font-size: calc(65px - 0.7vw);
-    max-width: 90%;
+	    font-size: calc(65px - 0.7vw);
+	    max-width: 90%;
 	}
-        .holder {
-            max-height: 35vw;
-        }
-        section:not(:first-of-type) .landing {
-            left: 0%;
-            transform: translate(-7%, -50%);
-        }
+	.titinfo {width: 60vw;}
+     .holder {
+         max-height: 35vw;
+     }
+     section:not(:first-of-type) .landing {
+         left: 0%;
+         transform: translate(-7%, -50%);
+     }
+    .about p {
+	    font-size: 1.5vw;
+	}
 }
 @media only screen and (max-width: 1024px) {
     .bckletters {
@@ -233,8 +237,12 @@
     .projpg h2 {
         font-size: 54px;
     }
+    .projpg p.quotep {font-size: 6.2vw;}
+    .quote .titinfo {
+    	font-size: 3vw;
+    }
     .prev {display: none;}
-    .pagination a {width: 100%;}
+    .pagination a, .quote {width: 100%;}
     .next {
         text-align: left;
     }
@@ -248,6 +256,18 @@
         height: 50.1px;
         border: solid 4px #151515; 
     }
+    .ablft, .abrgh {
+    	float:none;
+    	width:100%;
+    	margin-right:0;
+    	margin-bottom:20vw;
+    }
+    .titinfo {
+	    width: calc(100% - 90px);
+	}
+    .about p {
+	    font-size: 34px;
+	}
 }
 @media only screen and (max-width: 760px) {
     h1 {
@@ -264,6 +284,9 @@
     .landing p {
        font-size: 4.4vw;
     }
+    .projpg h1 {font-size: 15vw;}
+    .about h1 {font-size: 7.7vw;}
+    .about p {font-size: 5vw;}
 }
 @media only screen and (max-width: 420px) {
     .proj3 .bckletters, .proj6 .bckletters {

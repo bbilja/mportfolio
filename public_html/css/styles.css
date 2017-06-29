@@ -620,7 +620,7 @@ body.projblack {
 .projblack.projpg p.quotep {
   color: #ffffff;
 }
-.projblack .quote .min {background-color: #cccccc;}
+.projblack .quote .min {background-color: #cccccc; vertical-align: middle;}
 .projblack aside a.vertical {color: #ffffff; border-left-color:#151515;}
 .projblack aside a.vertical.act {border-left-color:#fff;}
 /*** About ***/
@@ -632,6 +632,7 @@ body.projblack {
   line-height: 1.45;
   letter-spacing: 0.2px;
   color: #cdcdcd;
+  margin-bottom:60px;
 }
 .about span {
 	display: inline-block;
@@ -667,7 +668,8 @@ body.projblack {
 .projblack .letter {color:#fff;}
 
 .about .bckletters {
-	top:14vw;
+	top: auto;
+    bottom: -15vw;
 }
 .about h1 {
 	font-size:calc(64px + 0.7vw);
