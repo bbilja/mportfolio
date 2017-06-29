@@ -119,7 +119,7 @@
 	}
 	.projpg h1 {
 		padding:150px 0 70px;
-		font-size: calc(120px - 0.75vw);
+		font-size: 8.5vw;
 	}
 	.projpg h2 {
 	    font-size: 20px;
@@ -141,6 +141,15 @@
         right: 3%;
     }
     h1 {font-size: 5.5vw;}
+    body, .centertxt > * {
+        font-size: 14px;
+    }
+    .pagination span:not(min), label, .label {
+        font-size: 12px;
+    }
+    .prev:after {
+        top: calc(50% - 16px);
+    }
 }
 @media only screen and (max-width: 770px) {
     .mhome {
@@ -151,53 +160,113 @@
         padding-top: 0px;
     }
     .landing p {font-size:34px;}
-    main {
+    main, .projpg main {
         padding: 47px 40px;
         margin:0 auto;
         width:100%;
     }
+    h1 {
+        font-size: 80px;
+    }
     section:first-of-type, .projdiv {height: auto;}
+    section:first-of-type .landing {margin-top: 15vw;}
     section:not(:first-of-type) {height:100vw; margin-top: 25vw;}
     .primg, .landing {position:relative}
     .landing {top:0; left: 0; transform: none;}
     section:not(:first-of-type) .landing {
         left: 30px;
         position: absolute;
-        bottom: 5vw;
+        bottom: 72px;
         top: initial;
         transform: translate(0%, 100%);
     }
+    section:not(:first-of-type) .landing p {
+        font-size: 22px;
+    }
     .bckletters {
-	    top: -36vw;
+	top: -36vw;
         right: 0;//-26vw;
-	}
-	.proj2 .bckletters, .proj5 .bckletters {
-	    left: -19vw;
-    	top: -63vw;
-	}
-	.proj3 .bckletters, .proj6 .bckletters {
-	    top: -65vw;
-	    right: -82px;
-	}
-	.W {
-	  width: 518px;
-	  height: 542px;
-	}
-	bckletters {
-		position:relative;
-	    top: 0;
-	    margin-right: -1%;
-	}
-	.letter {font-size: 90vw;}
-        .holder {
-            top:0;
-            right:0;
-            max-width: 100%;
-            max-height: 70vw;
-        }
+    }
+    .proj2 .bckletters, .proj5 .bckletters {
+	left: -19vw;
+    	top: -50vw;
+    }
+    .proj3 .bckletters, .proj6 .bckletters {
+	top: -55vw;
+	right: -82px;
+    }
+    .letter {font-size: 90vw;}
+    .holder {
+        top:0;
+        right:0;
+        max-width: 100%;
+        max-height: calc(70vw - 40px);
+    }
+    .projcont {margin: 0;}
+    .projpg h1 {
+        font-size: 120px;
+    }
+    .prinfo {
+        float: none;
+        width: 100%;
+    }
+    .pagination span:not(min), label, .label {
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+    body, .centertxt > * {
+        font-size: 34px;
+    }
+    .projpg p {margin-bottom: 30px;}
+    .twocol img:first-of-type, .threecol img:first-of-type,
+    .twocol img, .threecol img {
+        margin: 30px 0;
+        width: 100%;
+        float: none;
+    }
+    .centertxt {
+        text-align: left;
+        margin: 10vh 0;
+    }
+    .centertxt > * {width: 100%;}
+    p.label {font-size:26px;}
+    .projpg h2 {
+        font-size: 54px;
+    }
+    .prev {display: none;}
+    .pagination a {width: 100%;}
+    .next {
+        text-align: left;
+    }
+    .pagination a > * {
+        display: block;
+        vertical-align: middle;
+    }
+    .min:after {
+        content: "";
+        width: 25.9px;
+        height: 50.1px;
+        border: solid 4px #151515; 
+    }
+}
+@media only screen and (max-width: 760px) {
+    h1 {
+        font-size: 10vw;
+    }
+    section:not(:first-of-type) .landing {
+        bottom: 9vw;
+        left:4vw;
+    }
+    section:not(:first-of-type) .landing p {
+        font-size: 2.6vw;
+    }
+    .proj3 .bckletters, .proj6 .bckletters {}
+    .landing p {
+       font-size: 4.4vw;
+    }
 }
 @media only screen and (max-width: 420px) {
-	.proj3 .bckletters, .proj6 .bckletters {
-	    top: -60vw;
-	}
+    .proj3 .bckletters, .proj6 .bckletters {
+        top: -60vw;
+    }
 }
