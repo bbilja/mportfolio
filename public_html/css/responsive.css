@@ -292,11 +292,8 @@
         display: block;
         vertical-align: middle;
     }
-    .min:after {
-        content: "";
-        width: 25.9px;
-        height: 50.1px;
-        border: solid 4px #151515; 
+    .min {
+        height: 4px; 
     }
     .ablft, .abrgh {
     	float:none;
@@ -327,7 +324,7 @@
        font-size: 4.4vw;
     }
     .projpg h1 {font-size: 15vw;}
-    .about h1 {font-size: 7.7vw;}
+    .about h1 {font-size: 7.7vw; line-height:1.03;}
     .about p {font-size: 5vw;}
 }
 @media only screen and (max-width: 420px) {
