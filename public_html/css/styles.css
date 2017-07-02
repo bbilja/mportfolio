@@ -305,6 +305,7 @@ aside a.vertical:focus,
 .about aside a:last-of-type {
 	border-left: 1px solid;
 }
+
 .vertical{
     writing-mode:tb-rl;
     /*-webkit-transform:rotate(90deg);
