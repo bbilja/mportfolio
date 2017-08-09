@@ -156,12 +156,12 @@
     }
 }
 @media only screen and (min-width: 770px) {
-	.about aside a:last-of-type.close:before,
-	.about aside a:last-of-type.close:after {
+	.about aside a.close:before,
+	.about aside a.close:after {
 		content: none;
 	}
 	.about aside a.close {
-		width:27px;
+		width:auto;
 		height:auto;
 		text-indent:0;
 	}

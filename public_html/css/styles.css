@@ -259,6 +259,7 @@ section {
 .proj5 .bckletters  {
 	left:-3vw;
 	top:-40vw;
+	z-index:-1;
 }
 .proj3 .bckletters {
 	top:0vh;
@@ -679,6 +680,16 @@ body.projblack {
 	margin-bottom:50px;
 	line-height:1.2;
 }
+.bottabout {
+	margin: 18vw 0 5vw;
+}
+.about .bottabout .min {
+	margin-top:0px;
+}
+.socici {float:right;}
+.bottabout span{line-height: 56px;
+    vertical-align: middle;}
+.socici img {margin-left:50px;}
 @media screen and (max-width: 46.0625em) {
 	.column {
 		width: 100%;
