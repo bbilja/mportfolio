@@ -210,7 +210,26 @@ section {
   width: 100%;
   height: 100vh;
 }
-
+.pgnarr {
+  width: 30px;
+  text-align:center;
+  position:fixed;
+  bottom:3.5vw;
+  left:3.5vw;
+}
+.pgnarr > * {float:left; width: 30px;}
+.numb-holder {  
+  height: 3px;
+  border: solid 2px #151515;
+  margin: 13px 0;
+}
+.arrow-up, .arrow-down {
+  display:inline-block;
+  height: 28px;
+}
+.arrow-up img, .arrow-down img{
+  width: 28px;
+}
 .window:nth-child(1) img{
   //transform: translate(20%, 23%);
 }

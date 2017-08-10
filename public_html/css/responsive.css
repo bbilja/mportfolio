@@ -93,7 +93,7 @@
 .scroll-btn .mouse > * {
     width: 3px;
     height: 7px;
-    margin-bottom: -1px;
+    margin-left: -1.5px;
 }
     .mhome img {
 	    width: 36px;
@@ -110,6 +110,18 @@
 	}
 	.about p {font-size:22px;}
 	.titinfo { width: 850px;}
+	.numb-holder {
+	  width: 24px;
+	  border: solid 1.5px #151515;
+	  margin:9px 0;
+	}
+	.arrow-up, .arrow-down {
+	  width: 24px;
+	  height: 22px;
+	}
+	.arrow-up img, .arrow-down img{
+	  width: 22px;
+	}
 }
 @media only screen and (max-width: 1366px) {
 	body, .centertxt > * {font-size:16px}
@@ -154,6 +166,9 @@
     .prev:after {
         top: calc(50% - 16px);
     }
+}
+@media only screen and (min-width: 990px) {
+	.pgnarr {display:none;}
 }
 @media only screen and (min-width: 770px) {
 	.about aside a.close:before,
