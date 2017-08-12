@@ -160,14 +160,15 @@
     body, .centertxt > * {
         font-size: 14px;
     }
-    .pagination span:not(min), label, .label {
+    .pagination span:not(.min), label, .label {
         font-size: 12px;
     }
     .prev:after {
         top: calc(50% - 16px);
     }
+    
 }
-@media only screen and (min-width: 990px) {
+@media only screen and (max-width: 990px) {
 	.pgnarr {display:none;}
 }
 @media only screen and (min-width: 770px) {
@@ -180,6 +181,7 @@
 		height:auto;
 		text-indent:0;
 	}
+	.pagination img {display;none;}
 }
 @media only screen and (max-width: 770px) {
     .mhome {
@@ -271,9 +273,21 @@
         float: none;
         width: 100%;
     }
-    .pagination span:not(min), label, .label {
+    .pagination span:not(.min), label, .label {
         font-size: 26px;
         letter-spacing: 3px;
+    }
+    .pagination span.min {
+    	display:none;
+    }
+    .pagination a > * {
+        display: block;
+        width:100%;
+    }
+    .pagination img {
+    	display;block; 
+    	vertical-align: middle;
+    	float: right;
     }
     body, .centertxt > * {
         font-size: 34px;
@@ -302,11 +316,7 @@
     .pagination a, .quote {width: 100%;}
     .next {
         text-align: left;
-    }
-    .pagination a > * {
-        display: block;
-        vertical-align: middle;
-    }
+    }    
     .min {
         height: 4px; 
     }
@@ -323,7 +333,7 @@
 	    font-size: 34px;
 	}
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 740px) {
     h1 {
         font-size: 10vw;
     }
@@ -341,6 +351,14 @@
     .projpg h1 {font-size: 15vw;}
     .about h1 {font-size: 7.7vw; line-height:1.03;}
     .about p {font-size: 5vw;}
+    .pagination span:not(.min), label, .label {
+	    font-size: 3.5vw;
+	    letter-spacing: 2px; 
+	}
+	body, .centertxt > * {font-size: 4.5vw;}
+	.projpg h2 {font-size: 7.2vw;}
+	p.label {font-size: 3.5vw;}
+	.pagination img {width:20vw;}
 }
 @media only screen and (max-width: 420px) {
     .proj3 .bckletters, .proj6 .bckletters {

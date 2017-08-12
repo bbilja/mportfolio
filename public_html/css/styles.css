@@ -229,6 +229,7 @@ section {
 }
 .arrow-up img, .arrow-down img{
   width: 28px;
+  vertical-align: top;
 }
 .window:nth-child(1) img{
   //transform: translate(20%, 23%);
