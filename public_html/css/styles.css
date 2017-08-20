@@ -225,10 +225,11 @@ section {
 }
 .arrow-up, .arrow-down {
   display:inline-block;
-  height: 28px;
+  height: 20px;
 }
 .arrow-up img, .arrow-down img{
-  width: 28px;
+  width: 20px;
+  height:100%;
   vertical-align: top;
 }
 .window:nth-child(1) img{
@@ -517,7 +518,7 @@ label {
   .close::before, .close::after {
     content: '';
     position: absolute;
-    height: 2px;
+    height: 3px;
     width: 100%;
     top: 50%;
     left: 0;
@@ -589,7 +590,7 @@ label {
 	display:inline-block;
 	background-color:#151515;
 }
-.pagination {margin: 5vw 0 6vw;}
+.pagination {margin: 8vw 0 6vw;}
 .pagination a > * {
 	display:inline-block; 
     vertical-align: middle;
