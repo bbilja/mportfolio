@@ -51,7 +51,7 @@
 	.abrgh {width:calc(44vw - 365px);}
 	.about h1 {font-size: 94px;}
 	.about .min {margin-top:20px;}
-	aside a.vertical {font-size:36px; padding-left:10px;}
+	aside a.vertical { padding-left:10px;}
 	.socici img {width: 62px; height:auto;}
         .socici img:last-of-type {width: 58px; height:auto;}
 }
@@ -113,7 +113,7 @@
 	  height: 720px;
 	  max-width:100%;
 	}
-	.about p {font-size:22px;}
+	.about p {font-size:22px; margin-bottom:60px;}
 	.titinfo { width: 850px;}
 	.numb-holder {
 	  width: 24px;
@@ -127,7 +127,8 @@
 	.arrow-up img, .arrow-down img{
 	  width: 16px;
 	}
-	 
+	 label {margin-bottom:18px;}
+	 .about .whiteinfo p {margin-bottom:8px;}
 }
 @media only screen and (max-width: 1366px) {
 	body, .centertxt > * {font-size:16px}
@@ -354,7 +355,7 @@
     	float:none;
     	width:100%;
     	margin-right:0;
-    	margin-bottom:20vw;
+    	margin-bottom:35vw;
     }
     .titinfo {
 	    width: calc(100% - 90px);
@@ -375,6 +376,13 @@
 	}
 	.about .whiteinfo p {font-size:6vw;}
 	.bottabout {margin:10vw 0;}
+	.about .bckletters {
+	    bottom: -30vw;
+	    right: -3vw;
+	}
+	label {
+	    margin-bottom: 30px;
+	}
 }
 @media only screen and (max-width: 740px) {
     h1, .projs h1 {
@@ -394,7 +402,7 @@
     }
     .projpg h1 {font-size: 15vw; line-height: 16vw;}
     .about h1 {font-size: 7.7vw; line-height:1.03;}
-    .about p {font-size: 5vw; margin-bottom: 30px;}
+    .about p {font-size: 5vw; margin-bottom: 60px;}
     .pagination span:not(.min), label, .label {
 	    font-size: 3.5vw;
 	    letter-spacing: 2px; 
@@ -405,6 +413,9 @@
 	.pagination img {width:20vw;}
 	.min {width: 7.5vw;}
 	.titinfo {width: calc(100% - 30px - 7.5vw);}
+	.greybck {
+	    width: 74vw;
+	}
 }
 @media only screen and (max-width: 480px) {    
     .mobtop {height:140px;}
@@ -413,4 +424,8 @@
     	margin: 0 4vw;
     }
     .title {margin-top:26vw}
+    .about .bckletters {
+	    bottom: -32vw;
+	    right: -8vw;
+	}
 }
