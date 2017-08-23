@@ -145,6 +145,7 @@ img {max-width:100%;}
     transform: translate(-50%, -50%);
     width:100%;
     z-index: 1;
+    text-align:left;
 }
 section:not(:first-of-type) .landing {
     left: -7%;
@@ -244,7 +245,7 @@ section {
 }
 .projdiv img {
     max-width: 100%;
-    max-height: 35vw;
+    max-height: 100%;
 }
 .primg {
     
@@ -265,7 +266,8 @@ section {
   box-shadow: 40px 40px 60px 0 rgba(0, 0, 0, 0.05);
 }
 .proj2 .holder, .proj3 .holder {
-    background-image: linear-gradient(42deg, #eeeeee, #e0e0e0);
+    background-image: linear-gradient(42deg, #eeeeee, #e0e0e0);    
+  	text-align:right;
 }
 .proj5 .holder {
     background-image: linear-gradient(42deg, #eeeeee, #e0e0e0);
@@ -547,6 +549,7 @@ label {
 .prinfo {
 	float:left;
 	width:33%;
+	padding-right:10px;
 }
 .projpg h2 {
 	font-size:34px;

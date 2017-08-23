@@ -54,9 +54,13 @@
 	aside a.vertical { padding-left:10px;}
 	.socici img {width: 62px; height:auto;}
         .socici img:last-of-type {width: 58px; height:auto;}
+    .prev div, .next div {
+		width: calc(100% - 160px - 8vw);
+	}
 }
 @media only screen and (max-width: 1440px) {
     .mhome {padding:50px 0 0 50px;}
+    .hispan {padding-top:50px; line-height:26px;}
     h1 {font-size: 75px; margin-bottom: 20px;}
     section:not(:first-of-type) .landing {
 	    left: -51px;
@@ -235,11 +239,13 @@
 	    text-indent:9999px;
 	    height:38px;
 	    margin:0;
-	    text-align:right;	    
+	    text-align:right;
+	    border-left:0 none;   
     }
     .close::before, .close::after {
         height: 4px;
     }
+    aside a.vertical:hover, aside a.vertical:focus, .projs aside a:first-of-type, .about aside a:last-of-type {border-left: 0px solid;}
     .hispan {
         padding-left: 65px;
         padding-top: 0px;
@@ -251,12 +257,16 @@
         margin:0 auto;
         width:100%;
     }
+    .projpg main {
+        padding: 46px 40px 0;
+    }
     .projs main {padding:30vw 40px;}
     h1 {
         font-size: 80px;margin-bottom:40px; 
     }
     .projs h1 {
         line-height:84px;
+        margin-bottom:10px;
     }
     section:first-of-type, .projdiv {height: auto;}
     section:first-of-type .landing {}
@@ -294,13 +304,15 @@
     .projcont {margin: 0;}
     .projpg h1 {
         font-size: 120px;
+        margin-bottom:0;
     }
     .prinfo {
         float: none;
         width: 100%;
     }
+    .prinfo:last-of-type {margin-bottom:15vw;}
     .pagination {
-	    margin: 20vw 0 12vw;
+	    margin: 20vw 0;
 	}
     .pagination span:not(.min), label, .label {
         font-size: 26px;
@@ -325,13 +337,18 @@
     .projpg p {margin-bottom: 30px;}
     .twocol img:first-of-type, .threecol img:first-of-type,
     .twocol img, .threecol img {
-        margin: 30px 0;
+        margin: 0px 0;
         width: 100%;
         float: none;
     }
+    .twocol img:first-of-type, .threecol img:first-of-type,
+    .threecol img {
+        margin: 0 0 40px;
+    }
+    
     .centertxt {
         text-align: left;
-        margin: 10vh 0;
+        margin: 15vw 0;
     }
     .centertxt > * {width: 100%;}
     p.label {font-size:26px;}
@@ -357,6 +374,7 @@
     	margin-right:0;
     	margin-bottom:35vw;
     }
+    .abrgh {margin-bottom:14vw;}
     .titinfo {
 	    width: calc(100% - 90px);
 	}
@@ -383,6 +401,9 @@
 	label {
 	    margin-bottom: 30px;
 	}
+	.onecol, .twocol, .threecol {
+	    margin: 40px 0;
+	}
 }
 @media only screen and (max-width: 740px) {
     h1, .projs h1 {
@@ -400,7 +421,7 @@
     .landing p {
        font-size: 4.4vw;
     }
-    .projpg h1 {font-size: 15vw; line-height: 16vw;}
+    .projpg h1 {font-size: 15vw; line-height: 16vw; padding:20vw 0 10vw;}
     .about h1 {font-size: 7.7vw; line-height:1.03;}
     .about p {font-size: 5vw; margin-bottom: 60px;}
     .pagination span:not(.min), label, .label {
@@ -416,6 +437,9 @@
 	.greybck {
 	    width: 74vw;
 	}
+	label, .projpg p {
+	    margin-bottom: 4.4vw;
+	}
 }
 @media only screen and (max-width: 480px) {    
     .mobtop {height:140px;}
@@ -427,5 +451,18 @@
     .about .bckletters {
 	    bottom: -32vw;
 	    right: -8vw;
+	}
+	.mhome img { width: 40px; }
+	.about aside a.close, .close {
+	    width: 27px;
+	    height: 27px;
+	}
+	.close::before, .close::after {
+	    height: 3px;
+	}
+	.projs aside a {
+		width: auto; 
+		height:24px;
+		background-size:auto 24px;
 	}
 }
